@@ -8,8 +8,8 @@
 // 同一个京东账号的好友互助码用@符号隔开,不同京东账号之间用&符号或者换行隔开,下面给一个示例
 // 如: 京东账号1的shareCode1@京东账号1的shareCode2&京东账号2的shareCode1@京东账号2的shareCode2
 let PlantBeanShareCodes = [
-  'bt74fcooobvkeqrhfymo7o3e4u3h7wlwy7o5jii@mlrdw3aw26j3wvk56fv32bckm r3tw4erjjumhay@olmijoxgmjutys6oo65w7mlx3uleshspiag2jta@igefhjvuw6 xvtivebf3dbcysogu4ippfex4g2dq@h3cggkcy6agkg7jk2kiyk2wpydbu6fne66k buaa@o7eiltak46s2wrkdvcgoanmydjnhyvsg5q4x5by@4npkonnsy7xi2lcouvzm djyjh5pliclrm7urzqy@e7lhibzb3zek3xd3y72whzxkki37dwzkwcqjjcq@gkk43 36xszaeho5pm4zempbc7z3cqx7u32mu4si',//账号一的好友shareCode,不同好友中间用@符号隔开
-  'bt74fcooobvkeqrhfymo7o3e4u3h7wlwy7o5jii@mlrdw3aw26j3wvk56fv32bckm r3tw4erjjumhay@olmijoxgmjutys6oo65w7mlx3uleshspiag2jta@igefhjvuw6 xvtivebf3dbcysogu4ippfex4g2dq@h3cggkcy6agkg7jk2kiyk2wpydbu6fne66k buaa@o7eiltak46s2wrkdvcgoanmydjnhyvsg5q4x5by@4npkonnsy7xi2lcouvzm djyjh5pliclrm7urzqy@e7lhibzb3zek3xd3y72whzxkki37dwzkwcqjjcq@gkk43 36xszaeho5pm4zempbc7z3cqx7u32mu4si',//账号二的好友shareCode，不同好友中间用@符号隔开
+  '',//账号一的好友shareCode,不同好友中间用@符号隔开
+  '',//账号二的好友shareCode，不同好友中间用@符号隔开
 ]
 // 判断github action里面是否有东东萌宠互助码
 if (process.env.PLANT_BEAN_SHARECODES) {
